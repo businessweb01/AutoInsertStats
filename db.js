@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 let host = process.env.DB_HOST;
-const fallbackHost = '103.231.161.234'; // 👈 replace with actual IP if needed
+const fallbackHost = 'ftp.multinetworkcatv.com'; // 👈 replace with actual IP if needed
 
 async function determineHost() {
   try {
